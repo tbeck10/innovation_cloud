@@ -101,3 +101,25 @@ div {
   float: left;
   margin: 50px 80px 50px 0;
 }
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url(../images/jumbotron_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+  text-align: right;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron .btn {
+  margin: 10px 0 0;
+  float: right;
+}
